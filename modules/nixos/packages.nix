@@ -3,14 +3,28 @@
 
 
   environment.systemPackages = with pkgs; [
+    # editor
     vim
-    wget
-    kitty
-    vivaldi
     vscodium
-    rofi
+
+    # basic utils
+    wget
     git
     gh
+
+    # browser
+    vivaldi
+    
+    # app launcher
+    rofi
+    
+    # terminal
     alacritty
+
+    # basic
+    discord
+    spotify
+
+
   ];
 }
