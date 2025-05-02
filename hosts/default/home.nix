@@ -3,7 +3,7 @@
 {
 
   imports = [
-    ../../modules/home-manager/bundle.nix
+    ../../modules/home-manager/hyprland.nix
   ];
 
 
