@@ -11,5 +11,6 @@
     rofi
     git
     gh
+    alacritty
   ];
 }
