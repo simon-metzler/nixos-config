@@ -1,5 +1,1 @@
-# nixos-config
-# nixos-config
-# nixos-config
-# nixos-config
-# nixos-config
+my nixos config
