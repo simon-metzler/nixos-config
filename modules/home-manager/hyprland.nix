@@ -31,7 +31,7 @@
         layout = "dwindle";
       };
 
-      decoration {
+      decoration = {
         drop_shadow = true;
         shadow_range = 4;
         shadow_render_power = 3;
