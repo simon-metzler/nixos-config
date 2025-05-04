@@ -25,6 +25,8 @@
     discord
     spotify
 
+    #hyprpaper
+    hyprpaper
 
   ];
 }
