@@ -58,11 +58,14 @@
       };
 
       bind = [
+
+        "$mainMod, SUPER_L, exec, rofi -show drun"
+
         "$mainMod, Q, exec, alacritty"
         "$mainMod, C, killactive"
         "$mainMod, M, exit"
         "$mainMod, V, togglefloating"
-        "$mainMod, R, exec, rofi -show drun"
+        
 
         "$mainMod, left, movefocus, l"
         "$mainMod, right, movefocus, r"

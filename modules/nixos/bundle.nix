@@ -9,7 +9,7 @@
     ./windowmanager.nix
     ./displaymanager.nix
     ./graphics.nix
-    ./virtualisation.nix
+    ./virtualization.nix
   ];
 
 }
