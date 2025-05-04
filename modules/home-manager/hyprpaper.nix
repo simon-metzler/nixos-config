@@ -1,5 +1,3 @@
-{config, pkgs, lib, ...}:
-
 let
   leftHouse  = ../wallpapers/left_house.jpg;
   rightHouse = ../wallpapers/right_house.jpg;
