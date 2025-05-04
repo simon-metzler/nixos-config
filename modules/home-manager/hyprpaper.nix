@@ -1,12 +1,19 @@
-{
+{config, pkgs, lib, ...}:
+
+let
+  leftHouse  = ../wallpapers/left_house.jpg;
+  rightHouse = ../wallpapers/right_house.jpg;
+in {
   services.hyprpaper = {
     enable = true;
-
     settings = {
-      preload = [ "../wallpapers/left_house.jpg" "../wallpapers/right_house.jpg" ];
+      preload = [
+        (builtins.toString leftHouse)
+        (builtins.toString rightHouse)
+      ];
       wallpaper = [
-        "DP-2,../wallpapers/left_house.jpg"
-        "HDMI-A-1,../wallpapers/right_house.jpg"
+        "DP-2,${builtins.toString leftHouse}"
+        "HDMI-A-1,${builtins.toString rightHouse}"
       ];
     };
   };
