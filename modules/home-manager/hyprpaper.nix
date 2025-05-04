@@ -8,6 +8,6 @@
         "DP-2,../wallpapers/left_house.jpg"
         "HDMI-A-1,../wallpapers/right_house.jpg"
       ];
-    }
-  }
+    };
+  };
 }
