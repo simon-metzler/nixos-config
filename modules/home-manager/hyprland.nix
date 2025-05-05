@@ -12,7 +12,7 @@
         "HDMI-A-1,1920x1080,1920x0,1"
       ];
 
-      exec = "hyprpaper &"
+      exec-once = "hyprpaper &";
 
 
       general =  {
