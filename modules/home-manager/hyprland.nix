@@ -25,8 +25,8 @@
       };
 
       decoration = {
-        active_opacity = 1.0;
-        inactive_opacity = 0.9;
+        active_opacity = 0.9;
+        inactive_opacity = 0.7;
 
         shadow = {
           enabled = true;
@@ -38,7 +38,7 @@
         blur = {
           enabled = true;
           size = 3;
-          passes = 1;
+          passes = 3;
 
           vibrancy = 0.1696;
         };
@@ -66,13 +66,28 @@
         "$mainMod, C, killactive"
         "$mainMod, M, exit"
         "$mainMod, V, togglefloating"
+        "$mainMod, F, fullscreen"
         
-
         "$mainMod, left, movefocus, l"
         "$mainMod, right, movefocus, r"
         "$mainMod, up, movefocus, u"
         "$mainMod, down, movefocus, d"
-      ];
+
+        "$mainMod, H, movewindow, l"
+        "$mainMod, J, movewindow, d"
+        "$mainMod, K, movewindow, u"
+        "$mainMod, L, movewindow, r"
+
+      ] ++ (
+        builtins.concatLists (builtins.genList (i:
+            let ws = i + 1;
+            in [
+              "$mod, code:1${toString i}, workspace, ${toString ws}"
+              "$mod SHIFT, code:1${toString i}, movetoworkspace, ${toString ws}"
+            ]
+          )
+          9)
+      );
 
       bindm = [
         "$mainMod, mouse:272, movewindow"
