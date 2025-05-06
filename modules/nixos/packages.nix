@@ -12,6 +12,7 @@
     git
     gh
     htop
+    cava
 
     # browser
     librewolf
