@@ -1,6 +1,6 @@
 let
-  leftHouse  = ../wallpapers/left_house.jpg;
-  rightHouse = ../wallpapers/right_house.jpg;
+  leftHouse  = ../wallpapers/left.png;
+  rightHouse = ../wallpapers/right.png;
 in {
   services.hyprpaper = {
     enable = true;
