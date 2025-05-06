@@ -13,7 +13,7 @@
     gh
 
     # browser
-    vivaldi
+    librewolf
     
     # app launcher
     rofi
