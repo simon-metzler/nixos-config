@@ -11,11 +11,11 @@
     wget
     git
     gh
-    htop
+    btop
     cava
 
     # browser
-    librewolf
+    firefox
     
     # app launcher
     rofi
@@ -29,6 +29,9 @@
 
     # hyprpaper
     hyprpaper
+
+    # dev
+    nodejs
 
   ];
 }
