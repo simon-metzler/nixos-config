@@ -10,6 +10,7 @@
     ./displaymanager.nix
     ./graphics.nix
     ./virtualization.nix
+    ./networking.nix
   ];
 
 }
