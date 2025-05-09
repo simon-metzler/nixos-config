@@ -33,5 +33,8 @@
     # dev
     nodejs
 
+    # fetch
+    neofetch
+
   ];
 }
