@@ -34,6 +34,7 @@
     nodejs
     cargo
     rustc
+    gcc
 
     # fetch
     neofetch
