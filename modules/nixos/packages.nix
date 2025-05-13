@@ -32,6 +32,8 @@
 
     # dev
     nodejs
+    cargo
+    rustc
 
     # fetch
     neofetch
