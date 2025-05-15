@@ -26,6 +26,7 @@
     # basic
     discord
     spotify
+    ncdu
 
     # hyprpaper
     hyprpaper
