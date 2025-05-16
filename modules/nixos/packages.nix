@@ -11,7 +11,7 @@
     wget
     git
     gh
-    btop
+    htop
     cava
 
     # browser
