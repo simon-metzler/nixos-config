@@ -40,5 +40,10 @@
     # fetch
     neofetch
 
+    xfce.thunar
+
+    unzip
+
+
   ];
 }
