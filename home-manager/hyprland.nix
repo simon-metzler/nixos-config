@@ -4,10 +4,12 @@
     package = null;
 
     settings = {
-      
+
       "$mainMod" = "SUPER";
 
       monitor = [ "DP-3,1920x1080,0x0,1" "HDMI-A-1,1920x1080,1920x0,1" ];
+
+      #env = ["HYPRCURSOR_THEME,Bibata-Modern-Classic" "HYPRCURSOR_SIZE,20" ];
 
       general = {
         gaps_in = 5;
