@@ -16,7 +16,7 @@
     firefox
     
     # app launcher
-    rofi
+    wofi
     
     # terminal
     alacritty
