@@ -1,7 +1,7 @@
 {
   imports = [
     ./hyprland.nix
-    ./hyprpaper
+    ./hyprpaper.nix
     ./shell.nix
     ./starship.nix
   ];

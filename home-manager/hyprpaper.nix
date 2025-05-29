@@ -1,6 +1,6 @@
 let 
-  left = ./wallpaper/left.png;
-  right = ./wallpaper/right.png;
+  left = ../wallpaper/left.png;
+  right = ../wallpaper/right.png;
 in
 {
   services.hyprpaper = {
