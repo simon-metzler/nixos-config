@@ -26,9 +26,6 @@
     spotify
     ncdu
 
-    # hyprpaper
-    hyprpaper
-
     # dev
     nodejs
     cargo
@@ -41,6 +38,8 @@
     xfce.thunar
 
     unzip
+
+  
 
   ];
  }
