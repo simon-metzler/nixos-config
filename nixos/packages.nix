@@ -39,5 +39,7 @@
 
     unzip
 
+    hyprpaper
+
   ];
  }

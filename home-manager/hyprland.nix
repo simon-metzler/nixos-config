@@ -7,6 +7,8 @@
 
       "$mainMod" = "SUPER";
 
+      exec-once = "hyprpaper &";
+
       monitor = [ "DP-3,1920x1080,0x0,1" "HDMI-A-1,1920x1080,1920x0,1" ];
 
       general = {
