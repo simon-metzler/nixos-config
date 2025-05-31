@@ -41,5 +41,7 @@
 
     hyprpaper
 
+
+
   ];
  }

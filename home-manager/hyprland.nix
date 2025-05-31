@@ -40,7 +40,7 @@
 
       bind = [
 
-        "$mainMod, SUPER_L, exec, wofi --show drun"
+        "$mainMod, SUPER_L, exec, wofi --show dmenu"
 
         "$mainMod, Q, exec, alacritty"
         "$mainMod, C, killactive"

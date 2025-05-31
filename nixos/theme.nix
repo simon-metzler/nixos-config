@@ -2,7 +2,8 @@
 {
   stylix = {
     enable = true;
-    base16Scheme = "${pkgs.base16-schemes}/share/themes/black-metal-immortal.yaml";
+
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/black-metal-dark-funeral.yaml";
 
     cursor = {
       package = pkgs.bibata-cursors;
