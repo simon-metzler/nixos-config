@@ -2,7 +2,7 @@
   imports = [
     ./hyprland.nix
     ./hyprpaper.nix
-    ./shell.nix
+    ./zsh.nix
     ./starship.nix
   ];
 }
