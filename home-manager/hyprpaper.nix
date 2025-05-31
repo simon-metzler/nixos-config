@@ -1,18 +1,16 @@
 let 
-  left = ../wallpaper/left.png;
-  right = ../wallpaper/right.png;
+  path = ../wallpaper.png;
 in
 {
   services.hyprpaper = {
     enable = true;
     settings = {
       preload = [
-        "${toString left}"
-        "${toString right}"
+        "${toString path}"
       ];
       wallpaper = [
-        "DP-3,${toString left}"
-        "HDMI-A-1,${toString right}"
+        "DP-3,${toString path}"
+        "HDMI-A-1,${toString path}"
       ];
     };
   };
