@@ -1,16 +1,16 @@
 {
   imports = [
     ./bootloader.nix
-    ./displaymanager.nix
-    ./garbagecollector.nix
+    ./gc.nix
     ./graphics.nix
+    ./hyprland.nix
     ./keymap.nix
     ./locale.nix
+    ./ly.nix
     ./networking.nix
     ./packages.nix
-    ./shell.nix
-    ./theme.nix
+    ./stylix.nix
     ./user.nix
-    ./windowmanager.nix
+    ./zsh.nix
   ];
 }
